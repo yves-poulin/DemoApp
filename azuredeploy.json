@@ -4,14 +4,14 @@
   "parameters": {
     "webAppName": {
       "type": "string",
-      "defaultValue": "developer-finder",
+      "defaultValue": "developer-finder-yp",
       "metadata": {
         "description": "The name of the web client app that you wish to create."
       }
     },
     "nonLinuxWebAppLocation": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "East US 2",
       "allowedValues": [
         "South Central US",
         "North Europe",
@@ -46,28 +46,28 @@
     },
     "oauthGitHubClientID": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "d8fb80781a78626b10ac",
       "metadata": {
         "description": ""
       }
     },
     "oauthGitHubClientSecret": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "a83150013ae2408319e948af4da9cac0abeba363",
       "metadata": {
         "description": ""
       }
     },
     "oauthLinkedInClientId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "7890pjiqbn7lq8",
       "metadata": {
         "description": ""
       }
     },
     "oauthLinkedInClientSecret": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "a83150013ae2408319e948af4da9cac0abeba363",
       "metadata": {
         "description": ""
       }
@@ -95,28 +95,28 @@
     },
     "twilioAccountSID": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "AC520782c23a5186c5eafdd895ef9461b1",
       "metadata": {
         "description": ""
       }
     },
     "twilioAuthToken": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "1f795f82cbe8f42e21bc9cd97d7413e8",
       "metadata": {
         "description": ""
       }
     },
     "twilioFromPhoneNumber": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "17784019517",
       "metadata": {
         "description": ""
       }
     },
     "sourceCodeRepositoryURL": {
       "type": "string",
-      "defaultValue": "https://github.com/<YOUR REPOSITORY>/DemoApp",
+      "defaultValue": "https://github.com/yves-poulin/DemoApp",
       "metadata": {
         "description": "Source code repository URL"
       }
